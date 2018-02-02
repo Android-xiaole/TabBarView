@@ -128,7 +128,7 @@ PS：应用宝截的GIF画质有点不忍直视。。。下面简单介绍一下
      */
     TabBarView setOnTabBarViewListener(OnTabBarViewListener tabBarViewListener);
     
-   # Demo里面写了三个用法实例
+#  Demo里面写了三个用法实例
    
    1、默认布局 
    
