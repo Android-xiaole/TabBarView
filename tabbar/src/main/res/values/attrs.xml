@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="tabBarView">
+        <attr name="imgWidth" format="dimension"></attr>
+        <attr name="imgHeight" format="dimension"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="marginTop" format="dimension"></attr>
+        <attr name="middleSize" format="dimension"></attr>
+        <attr name="marginBottom" format="dimension"></attr>
+        <attr name="textUnselectColor" format="color"></attr>
+        <attr name="textSelectColor" format="color"></attr>
+        <attr name="tabBgColor" format="color"></attr>
+        <attr name="isShowDivider" format="boolean"></attr>
+        <attr name="dividerHeight" format="dimension"></attr>
+        <attr name="dividerColor" format="color"></attr>
+    </declare-styleable>
+
+</resources>
