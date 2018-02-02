@@ -23,7 +23,7 @@ PS：应用宝截的GIF画质有点不忍直视。。。下面简单介绍一下
          
  最后在app或者你要使用的库的 build.gradle 文件里面的dependencies标签下面添加
  
-     com.github.Android-xiaole:TabBarView:1.0.1
+     implementation 'com.github.Android-xiaole:TabBarView:1.0.1'
 
 ## 设置数据的方法我全部都抽成了接口
 
