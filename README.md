@@ -8,7 +8,8 @@
 PS：应用宝截的GIF画质有点不忍直视。。。下面简单介绍一下用法（后面会写一片博客详细讲解一下）
 
 ## 设置数据的方法我全部都抽成了接口
-/**
+
+    /**
      * 设置图片的尺寸
      * <p>
      * 此方法必须在addTabItem()之前调用
@@ -110,6 +111,7 @@ PS：应用宝截的GIF画质有点不忍直视。。。下面简单介绍一下
     TabBarView setOnTabBarViewListener(OnTabBarViewListener tabBarViewListener);
     
    # Demo里面写了三个用法实例
+   
    1、默认布局 
    
         <org.le.tabbar.TabBarView
@@ -141,7 +143,7 @@ PS：应用宝截的GIF画质有点不忍直视。。。下面简单介绍一下
         
   3、代码设置
   
-  tabBarView2.setTextChangeColor(Color.GRAY,Color.YELLOW)
+    tabBarView2.setTextChangeColor(Color.GRAY,Color.YELLOW)
                 .setImgSize(28,28)
                 .setMargins(5,2,5)
                 .setTextSize(12)
@@ -158,7 +160,7 @@ PS：应用宝截的GIF画质有点不忍直视。。。下面简单介绍一下
                 .show();
                 
 ## 最后注意： * 提醒一下关于设置size的问题
- *
+ 
  * 1、XML文件里面设置的支持px dp sp
  * 2、set方法设置的只支持dp（文字是sp），我这边自动帮用户转换了（方便适配嘛）
  * 3、文字只支持sp
