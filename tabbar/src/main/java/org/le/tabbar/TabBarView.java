@@ -97,12 +97,12 @@ public class TabBarView extends LinearLayout implements TabBarFactory, View.OnCl
         this.top = typedArray.getDimensionPixelOffset(R.styleable.tabBarView_marginTop,SizeUtils.dp2px(context,5));
         this.middle = typedArray.getDimensionPixelOffset(R.styleable.tabBarView_middleSize,SizeUtils.dp2px(context,2));
         this.bottom = typedArray.getDimensionPixelOffset(R.styleable.tabBarView_marginBottom,SizeUtils.dp2px(context,5));
-        this.unSelectColor = typedArray.getInt(R.styleable.tabBarView_textUnselectColor, Color.GRAY);
-        this.selectColor = typedArray.getInt(R.styleable.tabBarView_textSelectColor,Color.BLUE);
-        this.tabBgColor = typedArray.getInt(R.styleable.tabBarView_tabBgColor,Color.WHITE);
+        this.unSelectColor = typedArray.getColor(R.styleable.tabBarView_textUnselectColor, Color.GRAY);
+        this.selectColor = typedArray.getColor(R.styleable.tabBarView_textSelectColor,Color.BLUE);
+        this.tabBgColor = typedArray.getColor(R.styleable.tabBarView_tabBgColor,Color.WHITE);
         this.isShowDivider = typedArray.getBoolean(R.styleable.tabBarView_isShowDivider,true);
         this.dividerHeight = typedArray.getDimension(R.styleable.tabBarView_dividerHeight,SizeUtils.dp2px(context,1));
-        this.dividerColor = typedArray.getInt(R.styleable.tabBarView_dividerColor,Color.GRAY);
+        this.dividerColor = typedArray.getColor(R.styleable.tabBarView_dividerColor,Color.GRAY);
     }
 
     private void addView() {
