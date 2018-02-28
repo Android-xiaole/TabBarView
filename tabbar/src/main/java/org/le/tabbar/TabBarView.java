@@ -103,6 +103,7 @@ public class TabBarView extends LinearLayout implements TabBarFactory, View.OnCl
         this.isShowDivider = typedArray.getBoolean(R.styleable.tabBarView_isShowDivider,true);
         this.dividerHeight = typedArray.getDimension(R.styleable.tabBarView_dividerHeight,SizeUtils.dp2px(context,1));
         this.dividerColor = typedArray.getColor(R.styleable.tabBarView_dividerColor,Color.GRAY);
+
     }
 
     private void addView() {
